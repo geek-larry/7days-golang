@@ -1,9 +1,9 @@
 package main
 
 import (
+	geerpc "7days-golang/gee-rpc/day6-load-balance"
+	"7days-golang/gee-rpc/day6-load-balance/xclient"
 	"context"
-	"geerpc"
-	"geerpc/xclient"
 	"log"
 	"net"
 	"sync"

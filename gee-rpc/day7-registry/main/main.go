@@ -1,10 +1,10 @@
 package main
 
 import (
+	geerpc "7days-golang/gee-rpc/day7-registry"
+	"7days-golang/gee-rpc/day7-registry/registry"
+	"7days-golang/gee-rpc/day7-registry/xclient"
 	"context"
-	"geerpc"
-	"geerpc/registry"
-	"geerpc/xclient"
 	"log"
 	"net"
 	"net/http"

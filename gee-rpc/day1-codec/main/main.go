@@ -1,10 +1,10 @@
 package main
 
 import (
+	geerpc "7days-golang/gee-rpc/day1-codec"
+	"7days-golang/gee-rpc/day1-codec/codec"
 	"encoding/json"
 	"fmt"
-	"geerpc"
-	"geerpc/codec"
 	"log"
 	"net"
 	"time"

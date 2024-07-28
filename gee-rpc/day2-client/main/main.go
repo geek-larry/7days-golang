@@ -1,8 +1,8 @@
 package main
 
 import (
+	geerpc "7days-golang/gee-rpc/day2-client"
 	"fmt"
-	"geerpc"
 	"log"
 	"net"
 	"sync"

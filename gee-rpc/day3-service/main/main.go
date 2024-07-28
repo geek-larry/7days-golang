@@ -1,7 +1,7 @@
 package main
 
 import (
-	"geerpc"
+	geerpc "7days-golang/gee-rpc/day3-service"
 	"log"
 	"net"
 	"sync"

@@ -5,10 +5,10 @@
 package geerpc
 
 import (
+	"7days-golang/gee-rpc/day6-load-balance/codec"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"geerpc/codec"
 	"io"
 	"log"
 	"net"
